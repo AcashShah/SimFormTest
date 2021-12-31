@@ -1,0 +1,195 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-31T08:03:45.360Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2237012900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.cucumber.utility.InitializeWebDrive.beforeChrome()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify that the user is able to update the profile and put a comment",
+        "description": "",
+        "id": "module-name:-profile;verify-that-the-user-is-able-to-update-the-profile-and-put-a-comment",
+        "after": [
+          {
+            "result": {
+              "duration": 853164100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.cucumber.utility.InitializeWebDrive.afterChrome(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37199169800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to the URL",
+            "match": {
+              "location": "com.automation.cucumber.stepdefinition.CommonFunctions.navigate_to_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8413529300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the given value and click on validate button",
+            "match": {
+              "location": "com.automation.cucumber.stepdefinition.CommonFunctions.enter_given_value_and_click_on_validate_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10240595500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter valid username in email or channel name",
+            "match": {
+              "location": "com.automation.cucumber.stepdefinition.CommonFunctions.enter_valid_username_in_email_or_channel_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5251960600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter valid Password",
+            "match": {
+              "location": "com.automation.cucumber.stepdefinition.CommonFunctions.enter_valid_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8148213500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on the Login Button",
+            "match": {
+              "location": "com.automation.cucumber.stepdefinition.CommonFunctions.click_on_the_Login_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31899710200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on the Settings Icon on your Right Top Corner and Select Edit Profile Option",
+            "match": {
+              "location": "com.automation.cucumber.stepdefinition.Profile.enter_the_given_value_and_validate_error_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4459078500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Read all the Data in the Cover Pic area given",
+            "match": {
+              "location": "com.automation.cucumber.stepdefinition.Profile.eread_all_data_in_cover_pic_Area_given()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3520588900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on the Dashboard",
+            "match": {
+              "location": "com.automation.cucumber.stepdefinition.Profile.click_on_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3116665700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on the Post Section",
+            "match": {
+              "location": "com.automation.cucumber.stepdefinition.Profile.click_on_post_selection()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137806960500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Select Photo from Local Storage and Click on Post Button",
+            "match": {
+              "location": "com.automation.cucumber.stepdefinition.Profile.select_photo_from_local_storge_and_click_on_post_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7151878000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on the Comment Option",
+            "match": {
+              "location": "com.automation.cucumber.stepdefinition.Profile.click_on_comment_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13077745600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "post the comment",
+            "match": {
+              "location": "com.automation.cucumber.stepdefinition.Profile.post_commnet()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Profile1"
+          }
+        ]
+      }
+    ],
+    "name": "Module Name: Profile",
+    "description": "",
+    "id": "module-name:-profile",
+    "keyword": "Feature",
+    "uri": "classpath:featurefile/Profile.feature",
+    "tags": []
+  }
+]
